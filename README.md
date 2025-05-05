@@ -14,32 +14,30 @@ This project provides a simple MCP server interface to interact with the [Pantry
 - **Delete Basket**: Remove a basket.
 - CLI and environment variable support for Pantry credentials.
 
-## Installation
-
-```bash
-git clone https://github.com/yourusername/pantry-mcp.git
-cd pantry-mcp
-npm install
-npm run build
-```
-
 ## Usage
 
 You can run the MCP server with:
 
 ```bash
-node build/index.js --pantry-id=YOUR_PANTRY_ID --basket-name=YOUR_BASKET_NAME
+node @c-na/pantry-mcp --pantry-id=YOUR_PANTRY_ID --basket-name=YOUR_BASKET_NAME
 ```
 
-Or set environment variables:
+Or
 
-```bash
-export PANTRY_ID=YOUR_PANTRY_ID
-export BASKET_NAME=YOUR_BASKET_NAME
-node build/index.js
+```json
+{
+  "Pantry MCP": {
+    "command": "node",
+    "args": [
+      "/Users/sina/development_local/pantry-mcp/build/index.js",
+      "--pantry-id=PANTRY_ID",
+      "--basket-name=BASKET_NAME"
+    ]
+  }
+}
 ```
 
-## API
+## Tools
 
 The server exposes the following MCP tools:
 
