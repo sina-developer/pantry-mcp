@@ -1,0 +1,27 @@
+{
+  "name": "pantry-mcp",
+  "version": "1.0.0",
+  "description": "Minimal MCP for getpantry.cloud JSON storage API.",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "pantry": "./build/index.js"
+  },
+  "scripts": {
+    "build": "tsc && chmod 755 build/index.js"
+  },
+  "files": [
+    "build"
+  ],
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.11.0",
+    "axios": "^1.6.7"
+  },
+  "author": "sina-developer",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/axios": "^0.14.4",
+    "@types/node": "^22.15.8",
+    "typescript": "^5.8.3"
+  }
+}
