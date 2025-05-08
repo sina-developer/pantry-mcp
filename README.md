@@ -1,5 +1,10 @@
 # Pantry MCP
 
+[![npm version](https://img.shields.io/npm/v/@c-na/pantry-mcp)](https://www.npmjs.com/package/@c-na/pantry-mcp)
+[![GitHub issues](https://img.shields.io/github/issues/sina-developer/pantry-mcp)](https://github.com/sina-developer/pantry-mcp/issues)
+[![GitHub stars](https://img.shields.io/github/stars/sina-developer/pantry-mcp)](https://github.com/sina-developer/pantry-mcp)
+
+
 Minimal MCP (Model Context Protocol) server for [getpantry.cloud](https://getpantry.cloud/) JSON storage API.
 
 ## Overview
