@@ -1,6 +1,6 @@
 {
   "name": "@c-na/pantry-mcp",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Minimal MCP for getpantry.cloud JSON storage API.",
   "main": "index.js",
   "type": "module",
