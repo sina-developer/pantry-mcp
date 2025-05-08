@@ -32,9 +32,9 @@ Or
 ```json
 {
   "Pantry MCP": {
-    "command": "node",
+    "command": "npx",
     "args": [
-      "/Users/sina/development_local/pantry-mcp/build/index.js",
+      "@c-na/pantry-mcp",
       "--pantry-id=PANTRY_ID",
       "--basket-name=BASKET_NAME"
     ]
